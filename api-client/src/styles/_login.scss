@@ -5,13 +5,26 @@
     justify-content: center;
 
     .logo_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 50vw;
         height: 100vh;
         background-color:var(--blue-secundary);
         
+        
         .logo{
-            width: 10vw;
-            height: 10vw;
+            width: 25vw;
+            height: 15vw;
+            position: absolute;
+             left: 150px;
+            top: 250px;
+                 
+        }
+        .fondo{
+            width: 50vw;
+            height: 100vh;
+            opacity: 20%;
         }
     }
     .formulario{
